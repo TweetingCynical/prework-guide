@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css" type="text/css">
     <title>Prework Study Guide</title>
   </head>
   <body>
-    <header id="header">
+  <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -51,7 +52,23 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
           <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>console.log(myVariableName) prints the current value (at the point this line of code is executed) to the console</li>
+          <li>console.log("Let's study HTML!") prints the text inside the quote marks</li>
+          <li>Control flow is important as JS works from top to bottom, but evaluates the entirity of for loops before moving on</li>
+          <li>if (condition) {
+            // block of code to be executed if condition is truthy
+           }</li>
+           <li>Falsey: 0, -0, On, "", null, undefined, NaN, or a Boolean of false</li>
+           <li>Once JS has found a step inside an if statement that IS truthy, it runs that code, and then breaks out of the if. This means NO CODE after a truthy statement, will run inside the IF</li>
+           <li>if (condition === "ThisIS CASE sensitiVE") It has to be an eact match.</li>
+           <li>var shapes = ["triangle", "square", "pentagon", "circle"]; saves values in an array and refers to them as shapes[0], shapes[1] etc.</li>
+           <li>Arrays can hold different data types! SOOOO USEFUL!</li>
+           <li>var shapes = ["triangle", "square", "pentagon", "circle"];
+            console.log(shapes[0]);
+            for(var x = 0; x < shapes.length; x++) {
+                console.log(shapes[x]);
+               }</li>
+            <li>The for loop consists of the for statement, then 3 conditional parts inside the brackets, then the action to take for each step while the x value inside the for loop is less than the number of array items</li>
           </ul>
       </section>
     </main>
@@ -60,6 +77,6 @@
       <p>I can code!</p>
     </footer>
   
-    <script src="scripts/main.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
